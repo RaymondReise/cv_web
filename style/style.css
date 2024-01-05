@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.titulo-principal {
+    font-family: 'Dancing Script', cursive;
+    color:rgb(60, 60, 60);
+    
+}
+
+.lista{
+    font-size: 30px;
+    color: blueviolet;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.lista-grupo{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    min-width: 50%;
+    padding: 20px;
+
+}
+
+.main-group{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-cursivo{
+  font-family: 'Dancing Script', cursive;
+}
+
+.no-margin{
+    margin:0px;
+}
+
+.foto{
+    width:100%;
+    height: 100%;
+ 
+}
+
+.contenedor-foto{
+    max-width: 300px;
+}
